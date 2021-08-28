@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> شراي</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- font  -->
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="content">
+            <div class="nav-sidebar custom-nav-sidebar">
+
+                <div class="nav-left-sidebar main-color sidenav" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="navbar-brand text-center add_bottom_40 d-none d-sm-block" href="#"><img data-brackets-id="6669" src="img/Gro logo.png">
+                    </a>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <a href="dashboard.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-home" aria-hidden="true"></i> الرئيسية
+                            </a>
+                            <a href="neworder.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i> طلب جديد
+                            </a>
+                            <a href="bills.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-file" aria-hidden="true"></i> الفاتورة
+                            </a>
+                            <a href="inbox.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-inbox" aria-hidden="true"></i> صندوق الوارد
+                            </a>
+                            <a href="profile.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-user" aria-hidden="true"></i> الملف الشخصي
+                            </a>
+                            <a href="settings.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-gear" aria-hidden="true"></i> الاعدادت
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action font-weight-bold  " style="margin-top:100px;">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i> تسجيل خروج
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="side-title" style="display:none">
+                    <a class="navbar-brand text-center add_bottom_40" href="#"><img data-brackets-id="6669" src="img/Gro logo.png">
+                    </a>
+                    <span onclick="openNav()">☰</span>
+                </div>
+
+
+                <div class="dashboard-wrapper">
+                    <div class="container-fluid  dashboard-content">
+                        <div class="row add_bottom_40 ">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-group serchbtn">
+                                    <button class="btn" type="submit" ><i class="fa fa-search " aria-hidden="true "></i></button>
+                                    <input class="form-control blue-border border-raduis " type="text " name="search " placeholder="ابحث برقم الطلب / اسم العميل / رقم الشحنة " required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 ">
+                                <ul class="nav navbar-nav navbar-right-top navbar-left ">
+                                <li class="nav-item dropdown dropdown2 notification ">
+                                <a class="nav-link nav-icons blue-background border-raduis dropdown-toggle " href="# " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                                    <i class="fa fa-bell the-color "></i>                                                       
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu2 notification-dropdown " aria-labelledby="dropdownMenuButton ">
+                                    <li>
+                                        <div class="notification-title main-color text-white "> الاشعارات</div>
+                                        <div class="notification-list ">
+                                        <div class="list-group ">
+                                        <div class="notification-info ">
+                                        <div class="notification-list-user-block font-weight-bold ">
+                                        Your purchase data has just arrived
+                                        <div class="notification-date ">14/01/2021</div>
+                                        </div>
+                                        </div>
+                                        <div class="notification-info ">
+                                            <div class="notification-list-user-block font-weight-bold ">
+                                            Your purchase data has just arrived
+                                            <div class="notification-date ">14/01/2021</div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                </li>    
+                            
+                            <li id="user ">
+                            <div class="dropdown dropdown1 ">
+                                <img src="img/cheerful-business-woman-standing-isolated_171337-8492.png " alt=" " class="profIm ">
+                            <a class="dropdown-toggle text-dark font-weight-bold " href="# " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                                حلا علي 
+                            </a>
+                            <div class="dropdown-menu dropdown-menu1 " aria-labelledby="dropdownMenuButton ">
+                                <a class="dropdown-item " href="# " >  تسجيل دخول</a>
+                                <a class="dropdown-item " href="# "> تسجيل خروج </a>
+                            </div>
+                            </div>
+                            </li>
+                            </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+               
+                <ul class="accordion">
+                    <div class='row'>
+                        <div class='col-md-6'>
+                    <li class='w-100'>
+                       
+                      <a class="toggle w-100" href="javascript:void(0);"> <span class="plus-sign"><i class="fa fa-user"></i></span>معلومات الحساب</a>
+                 
+                      <ul class="inner">
+                        <li class="inner-li"> 
+                          <div class="col-lg-8 col-md-8 inner-tab-span ">
+                            <div class="row mt-3">
+        
+                            <div class="col-lg-6 col-md-6 serchbtn">
+                                <div class="form-floating text-right">
+                                    <label for="fname" class="form-label">الاسم الأول</label>
+                                    <input type="ٌtext" class="form-control blue-border border-raduis classic" placeholder="أحمد" name="fname" id="fname">
+                                </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 serchbtn text-right">
+                                    <label for="lname" class="form-label">اسم العائلة</label>
+                                    <input type="ٌtext" class="form-control blue-border border-raduis classic" placeholder="علي" name="lname" id="lname">
+                                 </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-lg-6 col-md-6 serchbtn">
+                                <div class="form-floating text-right">
+                                    <label for="email" class="form-label">البريد الالكتروني</label>
+                                    <input type="email" class="form-control blue-border border-raduis classic" placeholder="ahmed.ali@gmail.com" name="email" id="email">
+                                </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 serchbtn ">
+                                    <div class="form-floating text-right">
+                                        <label for="phone" class="form-label">رقم الهاتف</label>
+                                        <input type="text" class="form-control blue-border border-raduis classic" placeholder="+9647906112" name="phone" id="phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-lg-4 col-md-4 serchbtn">
+                                <div class="form-floating text-right">
+                                    <label for="data-reco" class="form-label">تاريخ التسجيل</label>
+                                    <input type="date" class="form-control blue-border border-raduis classic"  name="data-reco" id="data-reco">
+                                </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 serchbtn ">
+                                    <div class="form-floating text-right">
+                                        <label for="last-data" class="form-label">اخر تسجيل دخول </label>
+                                        <input type="date" class="form-control blue-border border-raduis classic"  name="last-data" id="last-data">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 serchbtn ">
+                                    <div class="form-floating text-right">
+                                        <label for="data-ip" class="form-label">اخر تسجيل دخول بعنوان IP</label>
+                                        <input type="date" class="form-control blue-border border-raduis classic"  name="data-ip" id="data-ip">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-lg-6 col-md-6 serchbtn">
+                                <div class="form-floating text-right">
+                                    <label for="city" class="form-label">المدينة</label>
+                                    <input type="text" class="form-control blue-border border-raduis classic" placeholder="Mansour" name="city" id="city">
+                                </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 serchbtn ">
+                                    <div class="form-floating text-right">
+                                        <label for="state" class="form-label">الولاية</label>
+                                        <input type="text" class="form-control blue-border border-raduis classic" placeholder="+9647906112" name="state" id="state">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-lg-6 col-md-6 serchbtn">
+                                <div class="form-floating text-right">
+                                    <label for="password" class="form-label">كلمة المرور</label>
+                                    <input type="password" class="form-control blue-border border-raduis classic" placeholder="***********" name="password" id="password">
+                                </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 serchbtn ">
+                                    <div class="form-floating text-right">
+                                        <label for="password" class="form-label">تأكيد كلمة المرور</label>
+                                        <input type="password" class="form-control blue-border border-raduis classic" placeholder="***********" name="password" id="password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-5 col-md-5 serchbtn mb-5 ">
+                                    <a href="#" class="main-color box-a " style="padding-top: 15px; padding-bottom: 15px; margin-left: 40%;">   حفظ التغيرات</a>
+
+                                </div>
+                               
+                            </div>
+                            <!-- end form one -->
+                        </div>
+                        </li>
+                      </ul>
+                    </li>
+                   </div>
+                  <!--    -->
+                <div class='col-md-6'>
+                       <li class='w-100'>
+                         
+                      <a class="toggle w-100 text-right" href="javascript:void(0);"> <span class="plus-sign"> <i class="fa fa-lock"></i></span> كلمة المرور</a>
+                      <ul class="inner">
+                        <li class="inner-li"> 
+                            <div class="col-lg-8 col-md-8 inner-tab-span">
+                                <div class="row mt-3">
+                                    <div class="col-lg-6 col-md-6 serchbtn">
+                                    <div class="form-floating text-right">
+                                        <label for="password" class="form-label">  كلمة المرور الحالية</label>
+                                        <input type="password" class="form-control blue-border blue-background border-raduis classic" placeholder="" name="password" id="password">
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-lg-6 col-md-6 serchbtn">
+                                    <div class="form-floating text-right">
+                                        <label for="password" class="form-label">كلمة المرور الجديدة</label>
+                                        <input type="password" class="form-control blue-border blue-background border-raduis classic" placeholder="" name="password" id="password">
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3 mb-5">
+                                    <div class="col-lg-6 col-md-6 serchbtn">
+                                    <div class="form-floating text-right">
+                                        <label for="password" class="form-label">تأكيد كلمة المرور</label>
+                                        <input type="password" class="form-control blue-border blue-background border-raduis classic" placeholder="" name="password" id="password">
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-3 mb-5">
+                                    <div class="col-lg-6 col-md-6 serchbtn">
+                                        <a href="#" class="main-color box-a " style="    padding: 5% 34%;">   حفظ التغيرات</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+                     
+                    </li>
+                    </div>
+                   </div>
+                      </ul>
+                    </li>
+                  
+                  </ul>
+                 
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/main.js "></script>
+    <script src="js/ForSections.js "></script>
+    <script src="js/wow.min.js "></script>
+
+</body>
+
+</html>

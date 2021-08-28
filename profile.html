@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> شراي</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- font  -->
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+  
+    
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="content">
+            <div class="nav-sidebar custom-nav-sidebar">
+
+                <div class="nav-left-sidebar main-color sidenav" id="mySidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="navbar-brand text-center add_bottom_40 d-none d-sm-block" href="#"><img data-brackets-id="6669" src="img/Gro logo.png">
+                    </a>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <a href="dashboard.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-home" aria-hidden="true"></i> الرئيسية
+                            </a>
+                            <a href="neworder.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i> طلب جديد
+                            </a>
+                            <a href="bills.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-file" aria-hidden="true"></i> الفاتورة
+                            </a>
+                            <a href="inbox.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-inbox" aria-hidden="true"></i> صندوق الوارد
+                            </a>
+                            <a href="profile.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-user" aria-hidden="true"></i> الملف الشخصي
+                            </a>
+                            <a href="settings.html" class="list-group-item list-group-item-action font-weight-bold">
+                                <i class="fa fa-gear" aria-hidden="true"></i> الاعدادت
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action font-weight-bold  " style="margin-top:100px;">
+                                <i class="fa fa-sign-out" aria-hidden="true"></i> تسجيل خروج
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="side-title" style="display:none">
+                    <a class="navbar-brand text-center add_bottom_40" href="#"><img data-brackets-id="6669" src="img/Gro logo.png">
+                    </a>
+                    <span onclick="openNav()">☰</span>
+                </div>
+
+
+                <div class="dashboard-wrapper">
+                    <div class="container-fluid  dashboard-content">
+                        <div class="row add_bottom_40 ">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="input-group serchbtn">
+                                    <button class="btn" type="submit" ><i class="fa fa-search " aria-hidden="true "></i></button>
+                                    <input class="form-control blue-border border-raduis " type="text " name="search " placeholder="ابحث برقم الطلب / اسم العميل / رقم الشحنة " required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 ">
+                                <ul class="nav navbar-nav navbar-right-top navbar-left ">
+                                <li class="nav-item dropdown dropdown2 notification ">
+                                <a class="nav-link nav-icons blue-background border-raduis dropdown-toggle " href="# " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                                    <i class="fa fa-bell the-color "></i>                                                       
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu2 notification-dropdown " aria-labelledby="dropdownMenuButton ">
+                                    <li>
+                                        <div class="notification-title main-color text-white "> الاشعارات</div>
+                                        <div class="notification-list ">
+                                        <div class="list-group ">
+                                        <div class="notification-info ">
+                                        <div class="notification-list-user-block font-weight-bold ">
+                                        Your purchase data has just arrived
+                                        <div class="notification-date ">14/01/2021</div>
+                                        </div>
+                                        </div>
+                                        <div class="notification-info ">
+                                            <div class="notification-list-user-block font-weight-bold ">
+                                            Your purchase data has just arrived
+                                            <div class="notification-date ">14/01/2021</div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                </li>    
+                            
+                            <li id="user ">
+                            <div class="dropdown dropdown1 ">
+                                <!-- <img src="img/cheerful-business-woman-standing-isolated_171337-8492.png " alt=" " class="profIm "> -->
+                            <a class="dropdown-toggle text-dark font-weight-bold " href="# " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                                حلا علي 
+                            </a>
+                            <div class="dropdown-menu dropdown-menu1 " aria-labelledby="dropdownMenuButton ">
+                                <a class="dropdown-item " href="# " >  تسجيل دخول</a>
+                                <a class="dropdown-item " href="# "> تسجيل خروج </a>
+                            </div>
+                            </div>
+                            </li>
+                            </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- start style profile -->
+                <section class="">
+                    <div class="row text-rigth">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="col-sm-6 img-profile  ">
+                                <img src="img/111.png" class="w-100 " alt="profile">
+                                <i class="fa fa-pencil icon"></i>
+                            </div>
+                            <div class="col-md-12 box-profile">
+                                <div class="row ">
+                                    <div class="col-sm-6 q_info text-right">
+                                        <p class="profile-inf info-color">الاسم</p>
+                                        <p class="profile-inf info-color">البريد الالكتروني </p>
+                                        <p class="profile-inf info-color">رقم الهاتف </p>
+                                        <p class="profile-inf info-color">تاريخ التسجيل </p>
+                                        <p class="profile-inf info-color">اخر تاريخ تسجيل دخول </p>
+                                        <p class="profile-inf info-color">اخر تسجيل دخول بعنوان  IP</p>
+                                        <p class="profile-inf info-color">المدينة</p>
+                                        <p class="profile-inf info-color">العنوان</p>
+                                    </div>
+                                    <div class="col-sm-6 info text-right">
+                                        <p> أحمد محمد علي </p>
+                                        <p>Aliahmed@gmail.com </p>
+                                        <p>+9647906112 </p>
+                                        <p>Aug 07, 2019 </p>
+                                        <p>Feb 21, 2021 </p>
+                                        <p>Mar 12, 2021 </p>
+                                        <p>بغداد </p>
+                                        <span>
+                                           <p> شارع الرشيد 6397</p>
+                                           <p>منصور</p>
+                                           <p>بغداد</p>
+                                           <p>العراق</p>
+                                           <p>بغداد</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg col-md ">
+                           <div class="row mb-5 ">
+                               <div class="col-lg-12 col-md-12">
+                                <div class="row flag ">
+                                    <div class="col-md-5 p-3 bg-color-flag pt-1">
+                                        <img src="img/China.jpg" alt="" >
+                                        عنوانك في الصين
+                                    </div>
+                                    <div class="col-md-5 p-3 bg-color-flag">
+                                        <img src="img/Turkey.jpg" alt="">
+                                        عنوانك في تركيا
+                                    </div>
+                                </div>
+                                <div class="row flag">
+                                    <div class="col-md-5 p-3 bg-color-flag def-flag">
+                                        <img src="img/uk.jpg" alt="" >
+                                        عنوانك في المملكة 
+                                    </div>
+                                    <div class="col-md-5 p-3 bg-color-flag ">
+                                        <img src="img/us.jpg" alt="">
+                                        عنوانك في الولايات 
+                                    </div>
+                                </div>
+                               </div>
+                           </div>
+
+                            <div class="col-lg-11 col-md-12 col-sm-9 mt-5 ">
+                                <div class="row per-data ">
+                                    <div class="col-md-10 col-data">
+                                        <div class="row row-data mt-4 justify-content-center">
+                                            <div class="col-md-6  p-2 info-color  text-right">
+                                                الاسم
+                                            </div>
+                                            <div class="col-md-6  p-2 text-right ">
+                                                ahmed Ali
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-data">
+                                        <div class="row row-data mt-2">
+                                            <div class="col-md-6 p-2 info-color text-right">
+                                                العنوان
+                                            </div>
+                                            <div class="col-md-6 p-2 text-right">
+                                                4321 Express Lane
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-data">
+                                        <div class="row row-data mt-2">
+                                            <div class="col-md-6 info-color p-2 text-right">
+                                                المدينة
+                                            </div>
+                                            <div class="col-md-6 p-2 text-right">
+                                                Sarsota
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-data">
+                                        <div class="row row-data mt-2">
+                                            <div class="col-md-6 p-2 info-color text-right">
+                                                الولاية
+                                            </div>
+                                            <div class="col-md-6 p-2 text-right">
+                                                Florida
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-data">
+                                        <div class="row row-data mt-2">
+                                            <div class="col-md-6  p-2 info-color text-right ">
+                                                الرمز البريدي
+                                            </div>
+                                            <div class="col-md-6 p-2 text-right">
+                                                45217
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-data">
+                                        <div class="row row-data mt-2 mb-4">
+                                            <div class="col-md-6 p-2 info-color text-right">
+                                                رقم الهاتف
+                                            </div>
+                                            <div class="col-md-6 p-2 text-right">
+                                                +1 (855) 205 2553
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End style profile -->
+        
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/main.js "></script>
+    <script src="js/ForSections.js "></script>
+    <script src="js/wow.min.js "></script>
+
+</body>
+
+</html>

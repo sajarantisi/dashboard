@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> شراي</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="content">
+                <div class="nav-sidebar custom-nav-sidebar">
+                    <div class="nav-left-sidebar main-color sidenav" id="mySidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a class="navbar-brand text-center add_bottom_40 d-none d-sm-block" href="#"><img data-brackets-id="6669" src="img/Gro logo.png">
+                        </a>
+                        <div class="card-body">
+                            <div class="list-group">
+                                <a href="dashboard.html" class="list-group-item list-group-item-action font-weight-bold">
+                                    <i class="fa fa-home" aria-hidden="true"></i> الرئيسية
+                                </a>
+                                <a href="neworder.html" class="list-group-item list-group-item-action font-weight-bold">
+                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i> طلب جديد
+                                </a>
+                                <a href="bills.html" class="list-group-item list-group-item-action font-weight-bold">
+                                    <i class="fa fa-file" aria-hidden="true"></i> الفاتورة
+                                </a>
+                                <a href="inbox.html" class="list-group-item list-group-item-action font-weight-bold">
+                                    <i class="fa fa-inbox" aria-hidden="true"></i> صندوق الوارد
+                                </a>
+                                <a href="profile.html" class="list-group-item list-group-item-action font-weight-bold">
+                                    <i class="fa fa-user" aria-hidden="true"></i> الملف الشخصي
+                                </a>
+                                <a href="settings.html" class="list-group-item list-group-item-action font-weight-bold">
+                                    <i class="fa fa-gear" aria-hidden="true"></i> الاعدادت
+                                </a>
+                                <a href="#" class="list-group-item list-group-item-action font-weight-bold  " style="margin-top:100px;">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i> تسجيل خروج
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="side-title" style="display:none">
+                        <a class="navbar-brand text-center add_bottom_40" href="#"><img data-brackets-id="6669" src="img/Gro logo.png">
+                        </a>
+                        <span onclick="openNav()">☰</span>
+                    </div>
+
+
+                    <div class="dashboard-wrapper">
+                        <div class="container-fluid  dashboard-content">
+
+                            <div class="row add_bottom_40 ">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="input-group serchbtn">
+                                        <button class="btn" type="submit" ><i class="fa fa-search " aria-hidden="true "></i></button>
+                                        <input class="form-control blue-border border-raduis " type="text " name="search " placeholder="ابحث برقم الطلب / اسم العميل / رقم الشحنة " required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 ">
+                                    <ul class="nav navbar-nav navbar-right-top navbar-left ">
+                                    <li class="nav-item dropdown dropdown2 notification ">
+                                    <a class="nav-link nav-icons blue-background border-raduis dropdown-toggle " href="# " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                                        <i class="fa fa-bell the-color "></i>                                                       
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu2 notification-dropdown " aria-labelledby="dropdownMenuButton ">
+                                        <li>
+                                            <div class="notification-title main-color text-white "> الاشعارات</div>
+                                            <div class="notification-list ">
+                                            <div class="list-group ">
+                                            <div class="notification-info ">
+                                            <div class="notification-list-user-block font-weight-bold ">
+                                            Your purchase data has just arrived
+                                            <div class="notification-date ">14/01/2021</div>
+                                            </div>
+                                            </div>
+                                            <div class="notification-info ">
+                                                <div class="notification-list-user-block font-weight-bold ">
+                                                Your purchase data has just arrived
+                                                <div class="notification-date ">14/01/2021</div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    </li>    
+                                
+                                <li id="user ">
+                                <div class="dropdown dropdown1 ">
+                                    <!-- <img src="img/cheerful-business-woman-standing-isolated_171337-8492.png " alt=" " class="profIm "> -->
+                                <a class="dropdown-toggle text-dark font-weight-bold " href="# " id="dropdownMenuButton " data-toggle="dropdown " aria-haspopup="true " aria-expanded="false ">
+                                    أحمد علي 
+                                </a>
+                                <div class="dropdown-menu dropdown-menu1 " aria-labelledby="dropdownMenuButton ">
+                                    <a class="dropdown-item " href="# " >  تسجيل دخول</a>
+                                    <a class="dropdown-item " href="# "> تسجيل خروج </a>
+                                </div>
+                                </div>
+                            </li>
+                        </ul>
+                            </div>
+                        </div>
+                    <section class="box-bills">
+                            <div class="row boxes bg-note  ">
+                                <div class="col-md-12 ">
+                                  <div class="row">
+                                      <div class="col-md-3 img-delivery ">
+                                        <img src="img/cheerful-guy-with-helmet-shopping-bags-driving-yellow-scooter-removebg-preview@2x.png" alt="">
+                                      </div>
+                                      <div class="col-md-5 text-note">
+                                        <p id="p-note">بقي يومين على وصول الشحنة القادمة</p>
+                                        <p id="p2-note">لكن من الممكن حصول بعض التأخيرات في وصول باقي البضائع</p>
+                                      </div>
+                                      <div class="col-md-3 mt-3">
+                                        <a href="#" class="main-color box-a morebtn " style="padding: 15px 70px;">المزيد</a>
+
+                                      </div>
+                                  </div>
+                              
+                                </div>
+                                    
+                                </div>
+                            </div>
+                    </section> 
+                      
+                    <section class="table-bills  ">
+                        
+                        <div class="row ">
+                            <!-- <div class="col-lg-9 col-md-10">
+                                <div class="col-lg-12"> -->
+                            <div class="col-lg-3  col-md-10 col-sm-10 notice   ">
+                                <div class="row text-right">
+                                    <div class="col-lg-12 col-md-12  mb-sm-2 mt-sm-4 text-right">
+                                        <span>
+                                            <img src="img/inbox (2).png" alt="INBOX" class="">
+                                            <p  class="mx-3">الصندوق الوارد</p>
+                                            <span class="num-notice  bg-primary  mx-1">12</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row text-right">
+                                    <div class="col-lg-12 col-md-12 mb-sm-2 text-right">
+                                       <span>
+                                        <img src="img/star-with-five-points.png" alt="star">
+                                        <p class="mx-3">المهمة</p>
+                                        <span class="num-notice mx-1 "></span>
+                                       </span>
+                                    </div>
+                                </div>
+                                <div class="row text-right">
+                                    <div class="col-lg-12 col-md-12 mb-sm-2 text-right">
+                                      <span>
+                                        <img src="img/sent-mail.png" alt="star">
+                                        <p class="mx-3">البريد المرسل</p>
+                                        <span class="num-notice mx-1 bg-danger">10</span>
+                                      </span>
+                                    </div>
+                                  
+                                </div>
+                                <div class="row text-right">
+                                    <div class="col-lg-12 col-md-12 mb-sm-2 text-right">
+                                        <span>
+                                            <img src="img/page.png" alt="star">
+                                            <p class="mx-3">المسودات</p>
+                                            <span class="num-notice mx-1"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row text-right">
+                                    <div class="col-lg-12 col-md-12 mb-sm-2 text-right">
+                                        <span>
+                                            <img src="img/clock.png" alt="star">
+                                            <p class="mx-3">المؤجلة</p>
+                                            <span class="num-notice mx-1"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row text-right">
+                                    <div class="col-lg-12 col-md-12 mb-sm-2 text-right">
+                                        <span>
+                                            <img src="img/trash.png" alt="star">
+                                            <p class="mx-3">المهملات</p>
+                                            <span class="num-notice mx-1"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                            <div class="col-lg-9 col-md-12">
+                            <div class="col-lg-12 ">
+                            <div class="card-table ">
+                                <div class="card-body table-responsive table-responsive-vertical ">
+                                <table class="table table-hover table-mc-light-blue table-inbox " id="table ">
+                                    <thead class="main-color text-white border-raduis ">
+                                    <tr>
+                                    <th scope="col "></th>
+                                    <th scope="col "> تفاصيل المنتج</th>     
+                                    <th scope="col ">رقم التتبع </th>
+                                    <th scope="col ">الوزن</th>
+                                    <th scope="col "> تاريخ الدخول  </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="bluee-border border-raduis font-weight-bold text-center ">
+                                    <td data-title=""  > 
+                                        <i class="fa fa-check-square checkicon" id="" 
+                                        onclick="$(this).attr('id',$(this).attr('id')===''?'checkicon1':'' )"></i>
+                                        <i class="fa fa-star starticon" id='' onclick="$(this).attr('id',$(this).attr('id')===''?'staricon1':'' )"></i>
+                                        <i class="fa fa-bookmark bookmarkicon" id=''  onclick="$(this).attr('id',$(this).attr('id')===''?'bookmarkicon1':'' )"></i>
+                                    </td>
+                                    <td data-title="تفاصيل المنتج " class="img-fluid  "> 
+                                        <div class="row">
+                                            <div class="col-md text-left align-item-left col-sm">
+                                                <img src="img/shoes.jpg ">
+                                            </div>
+                                            <div class="col-md-4 col-lg-6 col-sm-4">
+                                                <p class="site-brand">أحذية</p> 
+                                                <p class="site-brand"> اللون: زهري</p>
+                                                <p class="site-brand"> القياس: 38 </p>
+                                                <p class="site-brand"> www.adidas.com</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-title="رقم التتبع  ">5241876300</td>
+                                    <td data-title=" الوزن ">20 Kg</td>
+                                    <td data-title=" تاريخ الدخول  "> Jun 25, 2021</td>
+                                    
+                                </tr>
+                                <tr class="bluee-border border-raduis font-weight-bold text-center ">
+                                    <td data-title=""> 
+                                        <i class="fa fa-check-square checkicon" id="" 
+                                        onclick="$(this).attr('id',$(this).attr('id')===''?'checkicon1':'' )"></i>
+                                        <i class="fa fa-star starticon" id='' onclick="$(this).attr('id',$(this).attr('id')===''?'staricon1':'' )"></i>
+                                        <i class="fa fa-bookmark bookmarkicon" id=''  onclick="$(this).attr('id',$(this).attr('id')===''?'bookmarkicon1':'' )"></i>
+                                    </td>
+                                    <td data-title="تفاصيل المنتج " class="img-fluid "> 
+                                        <div class="row">
+                                            <div class="col-md text-left align-item-left col-sm">
+                                                <img src="img/phone.jpg ">
+                                            </div>
+                                            <div class="col-md-4 col-lg-6 col-sm-4">
+                                                <p class="site-brand">هاتف خلوي</p>
+                                                <p class="site-brand"> اللوت : أبيض</p>
+                                                <p class="site-brand"> Grand</p>
+                                                <p class="site-brand">www.samsung.com</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-title="رقم التتبع  ">1254400687</td>
+                                    <td data-title=" الوزن ">1 Kg</td>
+                                    <td data-title=" تاريخ الدخول  "> May 03, 2021</td>
+                                </tr>
+                                <tr class="bluee-border border-raduis font-weight-bold text-center ">
+                                    <td data-title=""> 
+                                        <i class="fa fa-check-square checkicon" id="" 
+                                        onclick="$(this).attr('id',$(this).attr('id')===''?'checkicon1':'' )"></i>
+                                        <i class="fa fa-star starticon" id='' onclick="$(this).attr('id',$(this).attr('id')===''?'staricon1':'' )"></i>
+                                        <i class="fa fa-bookmark bookmarkicon" id=''  onclick="$(this).attr('id',$(this).attr('id')===''?'bookmarkicon1':'' )"></i>
+                                    </td>
+                                    <td data-title="تفاصيل المنتج " class="img-fluid "> 
+                                        <div class="row">
+                                            <div class="col-md text-left align-item-left col-sm">
+                                                <img src="img/gucci.jpg ">
+                                            </div>
+                                            <div class="col-md-4 col-lg-6 col-sm-4">
+                                                <p  class="site-brand">حقيبة يد</p>
+                                                <p  class="site-brand"> اللون : البني </p>
+                                                <p  class="site-brand">حجم صغير </p>
+                                                <p class="site-brand">www.gucci.com</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td data-title="رقم التتبع  ">5524713650</td>
+                                    <td data-title=" الوزن ">12 Kg</td>
+                                    <td data-title=" تاريخ الدخول  "> Apr 07, 2021</td>
+                                </tr>
+                               
+                                </tbody>
+                                </table>
+                                </div>
+                            </div> 
+                            <!-- <nav aria-label="Page navigation example ">
+                                <ul class="pagination justify-content-center ">
+                                <li class="page-item ">
+                                    <a class="page-link border-raduis border-0 " href="# " aria-label="Previous ">
+                                    <span aria-hidden="true ">&laquo;</span>
+                                    <span class="sr-only ">Previous</span>
+                                    </a>
+                                </li>
+                                <li class="page-item "><a class="page-link active border-raduis border-0 " href="# ">1</a></li>
+                                <li class="page-item "><a class="page-link main-color text-white border-raduis border-0 " href="# ">2</a></li>
+                                <li class="page-item "><a class="page-link main-color text-white border-raduis border-0 " href="# ">3</a></li>
+                                <li class="page-item "><a class="" href="# ">...</a></li>
+                                <li class="page-item "><a class="page-link main-color text-white border-raduis border-0 " href="# ">15</a></li>
+
+                                <li class="page-item ">
+                                    <a class="page-link border-raduis border-0 " href="# " aria-label="Next ">
+                                    <span aria-hidden="true ">&raquo;</span>
+                                    <span class="sr-only ">Next</span>
+                                    </a>
+                                </li>
+                                </ul>
+                            </nav>    -->
+                        </div>
+                            </div>
+                        <!-- </div></div> -->
+                        </div>
+                    </div>
+                    </div>
+                        
+                    </section>    
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---->
+    </div>
+ 
+
+    <script src="js/jquery-3.2.1.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/main.js "></script>
+    <script src="js/ForSections.js "></script>
+    <script src="js/wow.min.js "></script>
+
+       <script>
+
+    </script>
+</body>
+
+</html>

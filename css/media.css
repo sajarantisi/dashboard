@@ -1,0 +1,286 @@
+    /*Smart Phone And Tablets */
+    
+    @media (max-width: 767px) {
+        .nav-sidebar .box,
+        .nav-sidebar .col-lg-12 .name select,
+        .nav-sidebar .serchbtn {
+            margin-bottom: 15px;
+        }
+        .nav-sidebar .serchbtn {
+            width: 100%;
+        }
+        .boxes .col-md-6,
+        .boxes .col-md-4,
+        .boxes .col-md-5,
+        .boxes .col-md-7 {
+            padding-right: 0;
+        }
+        .nav-sidebar .col-lg-12 .name p,
+        .nav-sidebar .col-lg-12 .name select {
+            display: block;
+        }
+        .nav-sidebar .col-lg-12 .name select {
+            width: 65%;
+            float: right;
+        }
+        .nav-sidebar {
+            display: block;
+        }
+        .side-title {
+            padding: 20px 30px;
+            background: white;
+            color: #3baeed;
+            font-weight: 600;
+        }
+        .nav-sidebar .nav-left-sidebar {
+            width: 100%;
+            padding: 7%;
+        }
+        .side-title .navbar-brand {
+            margin: 0 !important;
+        }
+        .nav-sidebar .dashboard-wrapper {
+            margin-right: auto;
+        }
+        .sidenav .closebtn {
+            display: block;
+        }
+        .nav-sidebar .card-body {
+            margin: 55px 0;
+        }
+        .left-sidebar {
+            display: none !important;
+        }
+        .side-title,
+        #mySidenav {
+            display: block !important;
+        }
+        #mySidenav {
+            width: 0;
+            padding: 0;
+        }
+        .side-title p {
+            display: inline-block !important;
+            float: right;
+        }
+        .side-title span {
+            font-size: 27px;
+            cursor: pointer;
+            position: relative;
+            margin: 5%;
+            float: left;
+        }
+        #navbarSupportedContent {
+            padding: 30px;
+            background-color: #fff;
+            border: 1px solid #9D9D99;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #111;
+        }
+        .navbar-dark .navbar-brand {
+            width: 40%;
+        }
+        .navbar-nav .nav-item {
+            margin-bottom: 5px;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 1.3rem;
+        }
+        .topfooter .PagesArrange {
+            padding-left: 15px;
+        }
+        .about-section h2 {
+            margin: 7% 0;
+        }
+        .testimonial .def,
+        .klam {
+            width: auto;
+            float: none;
+        }
+        .testimonial .carousel-item {
+            padding: 8%;
+        }
+        .carousel-inner {
+            margin: 7% auto;
+        }
+        .contact-section .first-col {
+            margin-top: 55px;
+        }
+        .pay-section .middle {
+            margin: 10% 5%;
+        }
+        .pay-section .order .text-right {
+            margin: 0;
+        }
+        .pay-section .order {
+            width: 97%;
+            margin: 3%;
+        }
+        .pay-section .order a {
+            display: block;
+            margin: 5% 0 8% 0;
+            width: 100%;
+        }
+        .topfooter {
+            padding: 25px 0 15px 0;
+        }
+        .pay-section .blue-background {
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5rem;
+        }
+        a.box-a,
+        input[type=submit].btn-block {
+            margin-top: 35px;
+        }
+        .accordion .card .card-header .card-title {
+            text-align: right;
+            font-size: 16px;
+        }
+        .info-section .box .col-lg-5 {
+            margin-top: 25px;
+        }
+        .downheaderbox {
+            padding-top: 59% !important;
+            padding-bottom: 4% !important;
+        }
+        .top-section .carousel-indicators {
+            bottom: -17%;
+        }
+    }
+    
+    @media (max-width: 991px) {
+        .downheaderbox {
+            padding-bottom: 4% !important;
+        }
+        .LoginCon {
+            overflow: scroll;
+        }
+        .navbar-nav {
+            text-align: right;
+        }
+        .navbar-brand {
+            margin-bottom: 25px;
+        }
+        .top-section h2,
+        .top h2 {
+            margin: 0% 0 4% 0;
+        }
+        .warn .clients-call {
+            padding: 6% 15%;
+        }
+        .work-section .steps.active:after,
+        .contact-section img {
+            display: none;
+        }
+        .testimonial .carousel-item img {
+            width: 84%;
+            height: auto;
+            margin-left: 10px;
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: auto !important;
+        }
+        .top-section {
+            height: 470px;
+        }
+        .top-section .img-fluid {
+            margin-top: -2%;
+        }
+        .top-header ul {
+            padding-right: 0;
+        }
+    }
+    /*Small screen */
+    
+    @media (min-width: 768px) and (max-width:991px) {
+        .top-section .carousel-indicators {
+            bottom: 0;
+        }
+        .downheaderbox {
+            padding-top: 24% !important;
+        }
+        .pay-section .order {
+            width: 85%;
+        }
+        .about-section .serv {
+            margin-bottom: 0;
+        }
+        #navbarSupportedContent {
+            padding: 30px;
+            background-color: #fff;
+            border: 1px solid #9D9D99;
+        }
+        .optionsForm .toadd {
+            margin-right: 33%;
+        }
+        .subscribe p {
+            margin: auto;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #111;
+        }
+        h5 {
+            font-size: 0.8em;
+        }
+        .col-lg-6,
+        .col-lg-4 {
+            margin-bottom: 20px;
+        }
+        .nav-sidebar .list-group-item {
+            padding: 1.5rem 1.5rem 1.5rem 1rem;
+        }
+        .nav-sidebar .serchbtn {
+            width: 100%;
+        }
+        .custom-nav-sidebar .container-fluid.dashboard-content {
+            padding: 0 10px 0 20px;
+        }
+        .nav-sidebar .box1 {
+            text-align: center;
+        }
+        .nav-sidebar .img-box {
+            float: none;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    /*Medium Screen */
+    
+    @media (min-width: 992px) and (max-width:1199px) {
+        .downheaderbox {
+            padding-top: 13% !important;
+        }
+        footer .info i {
+            padding-left: 10px;
+        }
+        .work-section .steps.active:after {
+            left: -43%;
+        }
+        .pay-section .container {
+            max-width: 1000px;
+        }
+        .pay-section .middle {
+            margin-top: 10%;
+        }
+        .nav-sidebar .col-lg-12 .name select {
+            width: 25%;
+        }
+        .nav-sidebar .box p {
+            margin-top: 22px;
+        }
+        .nav-sidebar .serchbtn {
+            width: 100%;
+        }
+    }
+    /*Large Screen */
+    
+    @media only screen and (min-width: 1200px) {}
+
+ 
